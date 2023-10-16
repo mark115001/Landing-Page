@@ -4,9 +4,16 @@
     box-sizing: border-box;
     }
     
+    .new-header-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+   }
+
     .container {
     display: flex;
     position: relative;
+    justify-content: center;
     height: 400px;
     right: 150px;
     justify-content: center;  /* horizontal boxes center inside red perimeter */
@@ -53,6 +60,7 @@
     .header-logo {
     display: flex;
     position: relative;
+    justify-content: center;
     color: white;
     width: auto;
     height: 25px;
@@ -60,7 +68,7 @@
     color: white;
     font-size: 24px;
     font-weight: 900;
-    left: 250px;
+    /* left: 0px; */
     gap: 30px;
     }
     
@@ -71,8 +79,11 @@
     
     .topline {
     position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: white;
-    margin-right: 300px;
+    margin-right: 280px;
     }
     
     .topline2 {
@@ -91,10 +102,11 @@
     
     .awesome {
     position: relative;
+    text-align: center;
     height: 200px;
     width: 375px;
     top: 85px;
-    left: 250px;
+    left: -75px;
     background-color: #1f2937;
     color: white;
     font-size: 36px;
@@ -110,7 +122,7 @@
     background-color: gray;
     color: white;
     top: -120px;
-    left: 550px;
+    left: 280px;
     }
     
     .new-header-container {
@@ -169,6 +181,7 @@
     width: 100px;
     border-radius: 5px;
     border: 2px solid #ffffff;
+    cursor: pointer;
     }
     
     .awebutton {
