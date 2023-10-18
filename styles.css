@@ -12,9 +12,9 @@
 
     .container {
     display: flex;
-    position: relative;
+    /* position: relative; */
     height: 400px;
-    right: 150px;
+    /* right: 150px; */
     justify-content: center;  /* horizontal boxes center inside red perimeter */
     align-items: center;  /* vertical boxes center inside red primeter */
     /* border: 2px solid red; */
