@@ -20,9 +20,16 @@
     /* border: 2px solid red; */
     }
     
+
+    .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .menu {
-    display: flex;    
-    flex-wrap: wrap;   /* This lets the boxes in perimeter wrap */
+    display: flex;
+    flex-wrap: wrap;   /*This lets the boxes in perimeter wrap */
     /* border: 10px solid gold; */
     gap: 50px;
     }
