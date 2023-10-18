@@ -30,6 +30,8 @@
     .menu {
     display: flex;
     flex-wrap: wrap;   /*This lets the boxes in perimeter wrap */
+    justify-content: center;
+    align-items: center;
     /* border: 10px solid gold; */
     gap: 50px;
     }
